@@ -1,0 +1,257 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+    font-family: 'Poppins';
+}
+
+:root
+ {
+    --header: #BE5B00;
+    --background: #FFF;
+    --title: #000;
+ }
+
+ .dark {
+    --header: #FA7800;
+    --background: #000;
+    --title: #FA7800;
+}
+
+nav {
+    display: none;
+}
+
+body {
+    background-color:var(--background);
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100px;
+    background-color: var(--header);
+}
+button{
+    background-color: transparent;
+    
+}
+ #menu{
+    display: flex;
+    justify-content: center;
+    gap: 19px;
+ }
+
+ 
+ #menu h1{
+    font-size: 32px;
+    font-weight: 400;
+    color: #FFF;
+ }
+ #trocar{
+    background-color: transparent;
+    border: transparent;
+    padding: 20px 20px;
+    color: #FFF;
+ }
+
+ #hamburguer{
+    border: none;
+    background-color: transparent;
+    margin-left: 8px;
+    font-size: 30px;
+    color: #ffffff;
+ }
+ #container{
+    position: relative;
+ }
+ #container img{
+    width: 100%;
+    height: 244px;
+    opacity: 50%;
+ }
+ #container h2{
+    font-size: 35px;
+
+ }
+ #Tema {
+    position: absolute;
+    left: 10px;
+    bottom: 20px;
+    
+    
+ }
+ #Tema h2{
+    font-family: Poppins;
+    font-size: 24px;
+    font-weight: 700;
+    top: 226px;
+    left: 8px;
+    width: 350px;
+    line-height: 36px;
+ }
+ #Tema p{
+    font-family: Poppins;
+    font-size: 18px;
+    font-weight: 400;
+     
+ }
+ 
+ #texto{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+ }
+#texto h2{
+    font-family: Poppins;
+    font-size: 24px;
+    font-weight: 400;
+    color: var(--title);
+    color: #000;
+}
+
+
+
+ #pesquisar{
+     position: relative;
+    margin: 12px 0 18px;
+ }
+
+input
+{
+    width: 325px;
+    height: 36px;
+    padding-left: 57px;
+   
+    border: 1px solid #BE5B00;
+    border-radius: 10px;
+    
+    font-family: Poppins;
+    font-size: 12px;
+    font-style: italic;
+    font-weight: 300;
+    
+    color: rgba(0, 0, 0, 0.60);
+    background-color: #FFF;
+}
+
+ #tex{
+    font-family: Poppins;
+    font-size: 24px;
+    font-weight: 400;
+    color: var(--title);
+
+ }
+ .classes{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 350px;
+    height: 350px;
+    margin: 20px 50px;
+    position: relative;
+
+ }
+
+
+ .classes img{
+    width: 350px;
+    height: 350px;
+    opacity: 72%;
+    border-radius: 15px;
+    background-color: #D9D9D9;
+  }
+.classes p{
+    position: absolute;
+    left: 24px;
+    bottom: 30px;
+    font-family: Poppins;
+    font-size: 24px;
+    font-weight: 700;
+    text-shadow: 0px 4px 4px #000(1, 1, 1, 20%);
+    color: #ffffff;
+    border: #000;
+}
+#escolhas p{
+    margin: 20px 26px;
+    font-family: Poppins;
+    font-size: 24px;
+    font-weight: 400;
+    text-align: center;
+}
+.Opcoes{
+    display: flex;
+    justify-content: center;    
+    flex-wrap: wrap;
+    gap: 16px;
+    width: 100%;
+}
+#Beleza{
+    font-family: Poppins;
+    font-size: 20px;
+    font-weight: 400;
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    background-color: #FB83FE;
+}
+a{
+    color: #000;
+    text-decoration: none;
+}
+
+#Design{
+    font-family: Poppins;
+    font-size: 20px;
+    font-weight: 400;
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    background-color:#FEE383;
+}
+#Saude{
+    font-family: Poppins;
+    font-size: 20px;
+    font-weight: 400;
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    background-color:#94FE83;
+}
+#Tecnologia{
+    font-family: Poppins;
+    font-size: 20px;
+    font-weight: 400;
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    background-color:#A383FE;
+}
+#Negocios{
+    font-family: Poppins;
+    font-size: 20px;
+    font-weight: 400;
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    background-color:#83C3FE;
+}
+#botao{
+
+    text-decoration:underline;
+    font-family: Poppins;
+    font-size: 16px;
+    margin: 20px 26px;    
+}
+footer{
+    background-color: var(--header);
+    height: 100px;
+}
+footer p{
+    
+    text-align: center;
+    padding: 30px 30px;
+}
